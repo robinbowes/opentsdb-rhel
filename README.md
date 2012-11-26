@@ -1,6 +1,3 @@
-opentsdb-rhel
-=============
-
 OpenTSDB server rpm for Red Hat Linux, CentOS, etc.
 
 The ready-to-use rpm is in RPMS/noarch.

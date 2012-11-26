@@ -1,4 +1,4 @@
 opentsdb-rhel
 =============
 
-OpenTSDB server rpm spec file for CentOS
+OpenTSDB server rpm for Red Hat Linux, CentOS, etc.

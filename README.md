@@ -11,3 +11,9 @@ Tested on CentOS 5.
 Ships local gnuplot executable as the CentOS version is too old.
 
 The java command is assumed to be in $PATH.
+
+Manual installation:
+
+    rpm -i tsdb-server-1.0-1.noarch.rpm
+    vi /etc/sysconfig/tsdb-server # Set Zookeeper address
+    /etc/init.d/tsdb-server start

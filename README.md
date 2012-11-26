@@ -22,7 +22,7 @@ Manual installation:
 Verification test:
 
     # Write a data point.
-    echo put test $(date +%s) 42 | nc localhost 4242
+    echo put test $(date +%s) 123 | nc localhost 4242
 
     # Read it back.
     curl -v 'http://localhost:4242/q?start=15m-ago&m=sum:test\{\}'

@@ -8,9 +8,7 @@ to other systems.
 
 Tested on CentOS 5.
 
-Ships local gnuplot executable as the CentOS version is too old.
-
-The java command is assumed to be in $PATH.
+Ships local gnuplot executable because the CentOS version is too old. Assumes the java command is in $PATH.
 
 Manual installation:
 

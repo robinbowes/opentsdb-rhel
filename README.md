@@ -17,6 +17,7 @@ Manual installation:
     rpm -i tsdb-server-1.0-1.noarch.rpm
     vi /etc/sysconfig/tsdb-server # Set Zookeeper address
     /etc/init.d/tsdb-server start
+    chkconfig tsdb-server on
 
 Verification test:
 

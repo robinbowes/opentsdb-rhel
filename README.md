@@ -2,7 +2,7 @@ OpenTSDB server rpm for Red Hat Linux, CentOS, etc.
 
 The ready-to-use rpm is in RPMS/noarch.
 
-Related Chef cookbook: http://community.opscode.com/cookbooks/tsdb-server
+Related Chef cookbook: http://community.opscode.com/cookbooks/tsdb-server.
 Nothing in the rpm assumes Chef; it should be easy to port the cookbook
 to other systems. 
 

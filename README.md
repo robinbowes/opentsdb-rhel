@@ -24,4 +24,4 @@ Verification test:
     echo put test $(date +%s) 42 | nc localhost 4242
 
     # Read it back.
-    curl -v 'http://localhost:4242/q?start=15m-ago&end=1m-ago&m=sum:test\{\}'
+    curl -v 'http://localhost:4242/q?start=15m-ago&m=sum:test\{\}'

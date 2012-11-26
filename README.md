@@ -17,3 +17,11 @@ Manual installation:
     rpm -i tsdb-server-1.0-1.noarch.rpm
     vi /etc/sysconfig/tsdb-server # Set Zookeeper address
     /etc/init.d/tsdb-server start
+
+Verification test:
+
+    # Write a data point.
+    echo put test $(date +%s) 42 | nc localhost 4242
+
+    # Read it back.
+    curl -v 'http://localhost:4242/q?start=15m-ago&end=1m-ago&m=sum:test\{\}'
